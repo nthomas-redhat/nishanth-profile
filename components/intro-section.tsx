@@ -57,11 +57,11 @@ export function IntroSection() {
           <div className="relative">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
               <Image 
-                src="/engineering-manager-headshot.png" 
+                src="/nishanth-profile.jpg" 
                 alt="Nishanth Thomas" 
                 width={320}
                 height={320}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
                 priority
               />
             </div>

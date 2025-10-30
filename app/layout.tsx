@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     description: "Engineering Manager with 20+ years of experience, leading UI and Observability for OpenShift Data Foundation",
     siteName: "Nishanth Thomas Portfolio",
     images: [{
-      url: "/engineering-manager-headshot.png",
+      url: "/nishanth-profile.jpg",
       width: 1200,
       height: 1200,
       alt: "Nishanth Thomas"
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nishanth Thomas - Software Engineering Manager",
     description: "Engineering Manager with 20+ years of experience, leading UI and Observability for OpenShift Data Foundation",
-    images: ["/engineering-manager-headshot.png"],
+    images: ["/nishanth-profile.jpg"],
   },
   robots: {
     index: true,
