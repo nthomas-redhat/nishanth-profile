@@ -13,19 +13,27 @@ interface Recommendation {
 
 const recommendations: Recommendation[] = [
   {
-    name: "John Doe",
-    title: "Senior Vice President, Engineering",
-    company: "Tech Company",
+    name: "Mudit Agarwal",
+    title: "Program Director - Fusion Data Foundation",
+    company: "Red Hat & IBM",
     relationship: "Managed Nishanth directly",
-    text: "Add your LinkedIn recommendation text here. Go to your LinkedIn profile, scroll to Recommendations, and copy the text from your colleagues.",
+    text: "I had the pleasure of working closely with Nishanth for several years first at RedHat and then IBM. Nishanth is a great leader who was deeply invested in his team's growth, and many engineers under his guidance have gone on to take on larger roles. Throughout our collaboration, Nishanth demonstrated a deep understanding of both technical and managerial aspects of our projects. His ability to effectively lead a team, prioritize tasks, and navigate complex challenges was instrumental in the successful delivery of multiple key initiatives. I highly recommend Nishanth for any leadership role where dedication, expertise, and a proven track record of success are valued. He would be a valuable asset to any organization looking to drive innovation and achieve ambitious goals.",
     image: "/placeholder-user.jpg"
   },
   {
-    name: "Jane Smith",
-    title: "Director of Product Management",
-    company: "Another Company",
+    name: "Eran Tamir",
+    title: "Senior Principal Product Manager at Red Hat, OpenShift Data Foundation",
+    company: "Red Hat & IBM",
     relationship: "Worked with Nishanth on the same team",
-    text: "Another recommendation text goes here. Replace these with your actual LinkedIn recommendations to showcase your impact and leadership.",
+    text: "I had the pleasure to work with Nishanth while he led the UI and UX engineering teams of OpenShift Data Foundation. Nishanth did an amazing job bringing those two disciplines together, helping the teams collaborate effectively and stay aligned on shared goals. He was also a great partner to share thoughts on strategy, platform integration and finding practical ways to quickly resolve conflicts and challenges. Nishanth's calm personality together with his professionalism and dedication, made him a valuable asset to our product development and adoption.",
+    image: "/placeholder-user.jpg"
+  },
+  {
+    name: "Alfonso Martínez",
+    title: "Senior Full Stack Developer",
+    company: "Red Hat & IBM",
+    relationship: "Reported directly to Nishanth",
+    text: "I strongly recommend Nishanth as a great Engineering Manager! Having worked with him for more than 2 years, I can honestly say he has made a positive impact on our team and projects. One of Nishanth's greatest strengths is his commitment to team development. They prioritize mentorship and actively encourage team members to pursue professional growth. Through regular 1-1 meetings and constructive feedback, he creates a supportive atmosphere where everyone feels valued and empowered. Communication is another area where Nishanth shines, ensuring that all team members are aligned with project goals and expectations. He really values our input and foster a culture where everyone feels included, which has made our team stronger and more productive. I'm confident he'll continue to lead teams to achieve great things!",
     image: "/placeholder-user.jpg"
   },
   // Add more recommendations here
