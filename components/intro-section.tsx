@@ -12,28 +12,20 @@ export function IntroSection() {
 
           <div className="text-lg md:text-xl leading-relaxed space-y-4 text-foreground/90">
             <p>
-              I'm a <strong className="font-semibold text-foreground">Software Engineering Manager</strong> who has
-              built, scaled, and led high-performing teams delivering open-source solutions that generate{" "}
-              <strong className="font-semibold text-foreground">$100M+ in annual revenue</strong>.
+              Passionate engineering leader with decades of experience building products and teams that scale. I believe in servant 
+              leadership, technical excellence, and creating environments where engineers thrive. I have built, scaled, and led high-performing teams delivering
+              open-source solutions.
             </p>
 
             <p>
-              I'm currently leading <strong className="font-semibold text-foreground">UI and Observability</strong> for{" "}
+              Currently leading <strong className="font-semibold text-foreground">UI and Observability</strong> for{" "}
               <Link
                 href="https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation"
                 className="text-primary hover:underline"
               >
                 OpenShift Data Foundation
               </Link>{" "}
-              at IBM (via Red Hat acquisition). Previously, I spent years helping Red Hat grow from a startup culture to
-              a leading enterprise open-source company.
-            </p>
-
-            <p className="text-muted-foreground text-base">
-              If you're looking for engineering leadership insights, you may find my experience in{" "}
-              <strong className="font-medium text-foreground">building teams from scratch</strong>,{" "}
-              <strong className="font-medium text-foreground">microfrontend architecture</strong>, and{" "}
-              <strong className="font-medium text-foreground">open-source governance</strong> helpful.
+              at IBM where I manage a team of 15 engineers working on infrastructure that powers 10,000+ clusters worldwide and generates <strong className="font-semibold text-foreground">$100M+ in annual revenue</strong>.
             </p>
           </div>
 
@@ -45,9 +37,9 @@ export function IntroSection() {
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="mailto:nishusemail@gmail.com">
+              <Link href="/Nishanth_thomas.pdf" target="_blank" rel="noopener noreferrer">
                 <FileText className="mr-2 h-5 w-5" />
-                View Resume
+                View CV
               </Link>
             </Button>
           </div>
@@ -57,11 +49,11 @@ export function IntroSection() {
           <div className="relative">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
               <Image 
-                src="/nishanth-profile.jpg" 
+                src="/nishanth-thomas-profile.jpg" 
                 alt="Nishanth Thomas" 
                 width={320}
                 height={320}
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover object-center"
                 priority
               />
             </div>

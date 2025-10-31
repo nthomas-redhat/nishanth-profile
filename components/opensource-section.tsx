@@ -12,11 +12,30 @@ export function OpenSourceSection() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="bg-gradient-to-br from-green-100 to-blue-100 dark:from-green-950 dark:to-blue-950 rounded-2xl p-8 md:p-12 flex items-center justify-center min-h-[300px]">
-            <div className="text-center space-y-4">
-              <Github className="h-20 w-20 mx-auto text-foreground" />
-              <div className="text-2xl font-semibold text-foreground">OpenShift Data Foundation</div>
-              <div className="text-muted-foreground">Leading UI & Observability</div>
+          <div className="bg-gradient-to-br from-green-100 to-blue-100 dark:from-green-950 dark:to-blue-950 rounded-2xl p-6 md:p-8">
+            <div className="space-y-4">
+              <div className="text-center mb-4">
+                <Github className="h-12 w-12 mx-auto text-foreground" />
+                <h3 className="text-lg font-semibold text-foreground mt-3">Key Projects</h3>
+              </div>
+              <div className="space-y-2">
+                <div className="bg-white/50 dark:bg-black/20 rounded-lg p-3">
+                  <div className="font-semibold text-sm text-foreground">OpenShift Data Foundation</div>
+                  <div className="text-xs text-muted-foreground">Software-defined storage for containers</div>
+                </div>
+                <div className="bg-white/50 dark:bg-black/20 rounded-lg p-3">
+                  <div className="font-semibold text-sm text-foreground">Tendrl</div>
+                  <div className="text-xs text-muted-foreground">Storage Management Platform</div>
+                </div>
+                <div className="bg-white/50 dark:bg-black/20 rounded-lg p-3">
+                  <div className="font-semibold text-sm text-foreground">Gluster</div>
+                  <div className="text-xs text-muted-foreground">Software Defined Storage</div>
+                </div>
+                <div className="bg-white/50 dark:bg-black/20 rounded-lg p-3">
+                  <div className="font-semibold text-sm text-foreground">Ceph</div>
+                  <div className="text-xs text-muted-foreground">Software Defined Storage</div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -45,20 +64,6 @@ export function OpenSourceSection() {
                   and align technical roadmaps with business goals.
                 </p>
               </div>
-            </div>
-
-            <div className="bg-card border border-border rounded-lg p-4">
-              <h4 className="font-semibold mb-2">Patents & Publications</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1">•</span>
-                  <span>US Patent: US9596135B1 - Network Management Innovation</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1">•</span>
-                  <span>US Patent: US20170249088A1 - System Architecture Design</span>
-                </li>
-              </ul>
             </div>
           </div>
         </div>

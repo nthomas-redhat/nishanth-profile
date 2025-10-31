@@ -56,13 +56,15 @@ export function LeadershipSection() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-950 dark:to-purple-950 rounded-2xl p-8 md:p-12 flex items-center justify-center min-h-[400px]">
-            <div className="text-center space-y-4">
-              <Users className="h-24 w-24 mx-auto text-primary" />
-              <div className="text-6xl font-bold text-foreground">15</div>
-              <div className="text-xl font-medium text-muted-foreground">Engineers Managed</div>
-              <div className="text-5xl font-bold text-foreground mt-6">10</div>
-              <div className="text-xl font-medium text-muted-foreground">Team Members Promoted</div>
+          <div className="bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-950 dark:to-purple-950 rounded-2xl p-8 md:p-12 flex items-center justify-center">
+            <div className="text-center space-y-3">
+              <Users className="h-16 w-16 mx-auto text-primary" />
+              <div className="text-4xl font-bold text-foreground">15</div>
+              <div className="text-base font-medium text-muted-foreground">Engineers Managed</div>
+              <div className="text-4xl font-bold text-foreground mt-4">10</div>
+              <div className="text-base font-medium text-muted-foreground">Team Members Promoted</div>
+              <div className="text-4xl font-bold text-foreground mt-4">95%</div>
+              <div className="text-base font-medium text-muted-foreground">Retention Rate</div>
             </div>
           </div>
         </div>

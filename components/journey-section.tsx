@@ -94,7 +94,7 @@ export function JourneySection() {
             </Button>
           </div>
           <div className="mt-6 text-sm opacity-75">
-            <p>nishusemail@gmail.com | +44 7496392354 | United Kingdom</p>
+            <p>nishusemail@gmail.com | United Kingdom</p>
           </div>
         </div>
       </div>
